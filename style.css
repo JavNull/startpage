@@ -1,0 +1,45 @@
+:root {
+  /* colors */
+  --background: #0E0E0E;
+  --foreground: #F1F1F1;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.clock {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  display: block;
+  margin-top: 22%;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+input {
+  text-align: center;
+  font-size: 80px;
+  display: none;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.search-form {
+  margin-top: 22%;
+  background: transparent;
+  color: var(--foreground);
+}
+
+
+.search-input {
+  width: 98%;
+  margin-bottom: 20px;
+
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>freaking home page</title>
+</head>
+<body>
+  <div><time class="clock" id="clock"></time></div>
+
+  <div>
+  <form action="https://google.com/search" method="get" target="_self"
+    autocomplete="off" class="search-form" spellcheck="false">
+      <input class="search-input" name='as_q' id="search-input" type="text" 
+       onkeydown="onInput()" autofocus="autofocus"/>
+    </div>
+  </form>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="clock.js"></script>
+<script src="keyhandle.js"></script>
+<script src="form.js"></script>
+</html>
