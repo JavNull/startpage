@@ -32,7 +32,6 @@ input {
 }
 
 .search-form {
-  margin-top: 22%;
   background: transparent;
   color: var(--foreground);
 }
@@ -42,4 +41,20 @@ input {
   width: 98%;
   margin-bottom: 20px;
 
+}
+
+textarea {
+  font-family: 'Roboto', sans-serif;
+  width: 98%;
+  margin-top: 22%;
+  text-align: center;
+  display: none;
+  resize: none;
+  font-size: 80px;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
