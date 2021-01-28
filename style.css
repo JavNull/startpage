@@ -19,17 +19,6 @@ body {
   letter-spacing: 0.05rem;
 }
 
-input {
-  text-align: center;
-  font-size: 80px;
-  display: none;
-  background: transparent;
-  color: inherit;
-  border: 0;
-  outline: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
 
 .search-form {
   background: transparent;
@@ -47,11 +36,11 @@ textarea {
   font-family: 'Roboto', sans-serif;
   width: 98%;
   overflow: hidden;
-  margin-top: 22%;
+  margin-top: 23%;
   text-align: center;
   display: none;
   resize: none;
-  font-size: 80px;
+  font-size: 70px;
   background: transparent;
   color: inherit;
   border: 0;
