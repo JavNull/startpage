@@ -9,6 +9,8 @@ $("#search-input").keyup(function(e) {
     $("body").css("background-color", "rgb(255, 70, 2)");
   } else if (abc.match(/twitch/g)) {
     $("body").css("background-color", "rgb(88, 60, 145)");
+  } else if (abc.match(/github/g)) {
+    $("body").css("background-color", "rgb(36, 41, 46)");
   } else {
     $("body").css("background-color", "rgb(14, 14, 14)");
   }
