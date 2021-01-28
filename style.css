@@ -46,6 +46,7 @@ input {
 textarea {
   font-family: 'Roboto', sans-serif;
   width: 98%;
+  overflow: hidden;
   margin-top: 22%;
   text-align: center;
   display: none;
