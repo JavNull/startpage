@@ -29,5 +29,7 @@ $(document).ready(function(){
 
 // clearing textarea
 $("textarea").blur(function() {
-  $(this).val("");
+  $("#search-input").val(''); 
+  $('#search-input').hide();
+  $('#clock').show();
 });
