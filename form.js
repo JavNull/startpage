@@ -29,7 +29,8 @@ $(document).ready(function(){
 
 // clearing textarea
 $("textarea").blur(function() {
+  $("body").css("background-image", "none");
   $("#search-input").val(''); 
   $('#search-input').hide();
-  $('#clock').show();
+  $('#clock').show(); 
 });
