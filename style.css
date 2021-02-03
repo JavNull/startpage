@@ -20,12 +20,6 @@ body {
 }
 
 
-.search-form {
-  background: transparent;
-  color: var(--foreground);
-}
-
-
 .search-input {
   width: 98%;
   margin-bottom: 20px;
