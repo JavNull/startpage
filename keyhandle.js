@@ -9,9 +9,9 @@ $("body").keydown(function(e) {
     e.keyCode == 17 || e.keyCode == 225 || e.keyCode == 8) {
       return;
   } else {
+    $("#clock").hide();
     $('#search-input').show();
     $("#search-input").focus();
-    $("#clock").hide();
   }
 
 });
