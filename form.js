@@ -21,7 +21,7 @@ $(document).ready(function(){
         // for ip addresses
         window.open(`http://${abc}`, "_self", false);
     } else {
-      window.open(`https://duckduckgo.com/?q=${abc}`, "_self", false);
+      window.open(`https://google.com/search?as_q=${abc}`, "_self", false);
       }
     }
   });
