@@ -11,7 +11,7 @@ body {
 }
 
 .clock {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100px;
   display: block;
   margin-top: 22%;
@@ -27,14 +27,14 @@ body {
 }
 
 textarea {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
   width: 98%;
   overflow: hidden;
   margin-top: 24%;
   text-align: center;
   display: none;
   resize: none;
-  font-size: 70px;
+  font-size: 50px;
   background: transparent;
   color: inherit;
   border: 0;
