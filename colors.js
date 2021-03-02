@@ -9,10 +9,8 @@ $("#search-input").keyup(function(e) {
     $("body").css("background-image", "linear-gradient(to right, rgb(255, 70, 2), rgb(156, 42, 0))");
   } else if (abc.match(/twitch/g)) {
     $("body").css("background-image", "linear-gradient(to right, rgb(88, 60, 145), rgb(54, 37, 88))");
-  } else if (abc.match(/github/g)) {
-    $("body").css("background-image", "linear-gradient(to right, rgb(36, 41, 46), rgb(15, 17, 19)");
   } else {
-    $("body").css("background-color", "rgb(14, 14, 14)");
+    $("body").css("background-color", "rgb(29,31,33)");
     $("body").css("background-image", "none");
   }
 })
