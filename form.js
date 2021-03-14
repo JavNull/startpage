@@ -24,7 +24,7 @@ $(document).ready(function(){
           // for urls without http or https
           window.open(`http://${abc}`, "_self", false);
       } else {
-          window.open(`https://google.com/search?as_q=${abc}`, "_self", false);
+          window.open(`https://duckduckgo.com/?q=${abc}`, "_self", false);
       }
     }
   });
