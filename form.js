@@ -19,10 +19,10 @@ $(document).ready(function(){
         window.open(`${abc}`, "_self", false);
       } else if (abc.match(/^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/g)) {
         // for ip addresses
-          window.open(`http://${abc}`, "_self", false);
+          window.open(`http://www.${abc}`, "_self", false);
       } else if (abc.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g)) {
-          // for urls without http or https
-          window.open(`http://${abc}`, "_self", false);
+        // for urls without http://www or https://www
+          window.open(`http://www.${abc}`, "_self", false);
       } else {
           window.open(`https://duckduckgo.com/?q=${abc}`, "_self", false);
       }
