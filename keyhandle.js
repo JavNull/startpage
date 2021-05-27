@@ -1,7 +1,7 @@
 $("body").keydown(function(e) {
 
   if (e.keyCode == 27) {
-    $("body").css("background-color", "rgb(46,52,64)");
+    $("body").css("background-color", "rgb(24, 24, 29)");
     $("#search-input").val('');
     $('#search-input').hide();
     $("#clock").show();

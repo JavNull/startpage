@@ -2,7 +2,7 @@ $('#search-input').keyup(function(){
   if($(this).val() == ''){
     $('#search-input').hide();
     $('#clock').show();
-    $("body").css("background-color", "rgb(46, 52, 64)");
+    $("body").css("background-color", "rgb(24, 24, 29)");
   }
   
 });
