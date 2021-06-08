@@ -9,9 +9,11 @@ function time() {
   if (m < 10) {m = "0" + m};
 
   if (h > 12) {
-    clock.textContent = `${h - 12} ${m}`;
+    clock.innerHTML =  `${h - 12} ${m} <span id="pm">pm</span>`
+  } else if (h = 12) {
+      clock.innerHTML =  `${h} ${m} <span id="pm">pm</span>`
   } else {
-    clock.textContent = `${h} ${m}`;
+    clock.innerHTML =  `${h} ${m} <span id="am">am</span>`
   }
 }
 
