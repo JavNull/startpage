@@ -11,7 +11,7 @@ body {
 }
 
 .clock {
-  font-family: 'Staatliches', cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 150px;
   top: 45%;
   left: 50%;
@@ -24,6 +24,14 @@ body {
   user-select: none;
 }
 
+#am {
+  font-size: 40px;
+}
+
+#pm {
+  font-size: 40px;
+}
+
 .search-input {
   width: 98%;
   margin-bottom: 20px;
@@ -31,7 +39,7 @@ body {
 }
 
 textarea {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Signika', sans-serif;
   width: 98%;
   overflow: hidden;
   text-align: center;
