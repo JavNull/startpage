@@ -24,14 +24,6 @@ body {
   user-select: none;
 }
 
-#am {
-  font-size: 40px;
-}
-
-#pm {
-  font-size: 40px;
-}
-
 .search-input {
   width: 98%;
   margin-bottom: 20px;
