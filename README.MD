@@ -5,4 +5,4 @@ A minimal custom web startpage based on [Tilde Enhanced](https://github.com/Ozen
 ![inicial](https://i.imgur.com/W2u2sR6.png)
 
 
-### OBS: working properly only on chromium based browsers.
+### OBS: not working properly on mozilla firefox.
